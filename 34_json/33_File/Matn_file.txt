@@ -1,0 +1,7 @@
+ BU holatda fileni ochsa bo'ladi lekin tavsiya qilinmaydi, file = open("pi.txt")pi = file.read()  fileni o'qib olyapmiz 
+ file.close() # agar file ni shu holatdni bajarmasak berkitmasak filemizga zarar yetishi mumkin 
+ with open('Talabalar.txt')as file :
+for line in file:
+ print(line)with open(yangi_fayl, 'a') as fayl: fayl.write('Ubaydullo Obidjanov
+')    fayl.write('1998
+')
